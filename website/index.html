@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Constantinos Coiffure - Επαγγελματικό κομμωτήριο στη Νεάπολη Θεσσαλονίκης από το 2003. Ανακαλύψτε κορυφαίες υπηρεσίες κουρέματος, χτενίσματος, βαφής και περιποίησης μαλλιών.">
+    <meta name="author" content="Κωνσταντίνος">
+    <title>Constantinos Coiffure | Επαγγελματικό Κομμωτήριο Νεάπολη</title>
+    
+    <!-- Favicon Placeholders -->
+    <link rel="icon" type="image/png" href="images/photo3.jpg">
+    
+    <!-- CSS Dependencies -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <a href="#" class="logo-wrapper">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-scissors"></i>
+                </div>
+                <div class="logo-text">
+                    Constantinos
+                    <span>Coiffure</span>
+                </div>
+            </a>
+            
+            <button class="mobile-nav-toggle" aria-label="Μενού">
+                <i class="fas fa-bars"></i>
+            </button>
+            
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Αρχική</a></li>
+                    <li><a href="#about">Σχετικά</a></li>
+                    <li><a href="#services">Υπηρεσίες &amp; Τιμές</a></li>
+                    <li><a href="#gallery">Ο Χώρος Μας</a></li>
+                    <li><a href="#reviews">Κριτικές</a></li>
+                    <li><a href="#contact">Επικοινωνία</a></li>
+                    <li><a href="#" class="btn-nav trigger-booking-modal">Κλείστε Ραντεβού</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content" data-aos="fade-up">
+            <span class="hero-tagline">Constantinos Coiffure</span>
+            <h1>Τέχνη &amp; Εμπειρία <br><span class="text-gold">Στα Μαλλιά Σας</span></h1>
+            <p>Από το 2003, προσφέρουμε εξειδικευμένες υπηρεσίες κομμωτικής, κούρεμα υψηλής αισθητικής και κορυφαίες τεχνικές χρώματος στη Νεάπολη.</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary"><i class="fa-solid fa-receipt"></i> Τιμοκατάλογος</a>
+                <a href="#contact" class="btn btn-secondary"><i class="fa-solid fa-phone"></i> Επικοινωνία</a>
+            </div>
+        </div>
+        
+        <!-- Live Open/Closed Status Badge -->
+        <div class="live-status-badge" data-aos="fade-up" data-aos-delay="400">
+            <span id="live-dot" class="live-dot"></span>
+            <span id="live-text" class="text-gold">Υπολογισμός ωραρίου...</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section-padding bg-light" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text" data-aos="fade-right">
+                    <span class="text-gold" style="font-weight: 600; text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; display: block; margin-bottom: 10px;">Η Ιστορία μας</span>
+                    <h3>21 Χρόνια Δημιουργίας &amp; Εμπιστοσύνης</h3>
+                    <p>Ο <strong>Κωνσταντίνος</strong> και η ομάδα του, από το <strong>2003</strong> στη Νεάπολη Θεσσαλονίκης, δημιουργούν εμφανίσεις που αναδεικνύουν την προσωπικότητα και τη φυσική ομορφιά κάθε πελάτη.</p>
+                    <p>Στο <strong>Constantinos Coiffure</strong>, η κομμωτική δεν είναι απλώς μια εργασία, αλλά μια τέχνη. Συνδυάζουμε την κλασική τεχνική με τις πιο σύγχρονες τάσεις της μόδας, χρησιμοποιώντας αποκλειστικά κορυφαία επαγγελματικά προϊόντα όπως L'Oréal Professionnel και Wella.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-sparkles"></i></div>
+                            <div class="feature-content">
+                                <h4>Εξατομικευμένο Στυλ</h4>
+                                <p>Κάθε κούρεμα και χρώμα σχεδιάζεται αποκλειστικά για τα δικά σας χαρακτηριστικά.</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon"><i class="fa-solid fa-award"></i></div>
+                            <div class="feature-content">
+                                <h4>Εγγυημένη Ποιότητα</h4>
+                                <p>Χρήση επώνυμων προϊόντων L'Oréal &amp; Wella για υγιή και λαμπερά μαλλιά.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image" data-aos="fade-left">
+                    <div class="img-frame">
+                        <img src="images/photo5.jpg" alt="Εσωτερικός χώρος Constantinos Coiffure">
+                        <div class="experience-badge">
+                            <h5>21+</h5>
+                            <p>Χρόνια<br>Εμπειρίας</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services and Prices Section -->
+    <section class="section-padding bg-dark" id="services">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="text-gold" style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 10px;">Υπηρεσίες υψηλών προδιαγραφών</span>
+                <h2>Ο Τιμοκατάλογός Μας</h2>
+                <p>Δείτε τις αναλυτικές μας υπηρεσίες. Φιλτράρετε ανά κατηγορία για να βρείτε ακριβώς αυτό που χρειάζεστε.</p>
+            </div>
+
+            <!-- Price Filters / Tabs -->
+            <div class="pricing-tabs" data-aos="fade-up" data-aos-delay="200">
+                <button class="tab-btn active" data-filter="all">Όλες οι Υπηρεσίες</button>
+                <button class="tab-btn" data-filter="styling">Κουρέματα &amp; Χτενίσματα</button>
+                <button class="tab-btn" data-filter="color">Βαφές &amp; Τεχνικές</button>
+            </div>
+
+            <!-- Pricing Grid -->
+            <div class="pricing-grid">
+                <!-- Column 1: Styling & Haircuts -->
+                <div class="pricing-column" id="styling" data-aos="fade-right" data-aos-delay="300">
+                    <h3><i class="fa-solid fa-scissors text-gold"></i> Κουρέματα &amp; Χτενίσματα</h3>
+                    <div class="pricing-list">
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Λούσιμο - Χτένισμα</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">
+                                    14 € <span class="pricing-original-price">16 €*</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Λούσιμο - Κούρεμα - Στέγνωμα</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">15 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Λούσιμο - Κούρεμα - Φορμάρισμα</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">25 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Λούσιμο - Κούρεμα - Χτένισμα</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">29 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Κούρεμα Ανδρικό</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">14 €</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Column 2: Dye & Color Techniques -->
+                <div class="pricing-column" id="color" data-aos="fade-left" data-aos-delay="300">
+                    <h3><i class="fa-solid fa-wand-magic-sparkles text-gold"></i> Βαφές &amp; Τεχνικές Χρώματος</h3>
+                    <div class="pricing-list">
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Βαφή Ρίζα</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">25 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Βαφή Όλα</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">
+                                    30 € <span class="pricing-original-price">33 €*</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Βαφή Ρίζα (L'Oréal - Wella)</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">28 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Βαφή Όλα (L'Oréal - Wella)</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">
+                                    33 € <span class="pricing-original-price">36 €*</span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Μερικές Ανταύγειες</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">20 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Mes-Ανταύγειες 1/2</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">35 €</span>
+                            </div>
+                        </div>
+                        <div class="pricing-item">
+                            <div class="pricing-main">
+                                <span class="pricing-title">Mes-Ανταύγειες Όλο</span>
+                                <span class="pricing-line"></span>
+                                <span class="pricing-price">60 €</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footnote -->
+            <p class="pricing-footnote" data-aos="fade-up" data-aos-delay="400">
+                * Για μαλλιά με υψηλότερο κόστος εργασίας. Οι τιμές ενδέχεται να διαφοροποιηθούν ανάλογα με το μήκος και την πυκνότητα των μαλλιών σας.
+            </p>
+            
+            <!-- Quick CTA -->
+            <div class="text-center" style="margin-top: 40px;" data-aos="fade-up" data-aos-delay="500">
+                <a href="#" class="btn btn-primary trigger-booking-modal">
+                    <i class="fa-solid fa-calendar-check"></i> Κλείστε Ραντεβού
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="section-padding bg-light" id="gallery">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="text-gold" style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 10px;">Η ατμόσφαιρά μας</span>
+                <h2>Ο Χώρος Μας</h2>
+                <p>Περιηγηθείτε στο σύγχρονο, κομψό και φιλόξενο κομμωτήριό μας στη Νεάπολη. Πατήστε σε οποιαδήποτε φωτογραφία για μεγέθυνση.</p>
+            </div>
+
+            <!-- Custom Masonry Gallery Grid -->
+            <div class="gallery-grid">
+                <!-- Photo 1 -->
+                <div class="gallery-item col-6" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/photo1.jpg" alt="Εσωτερική άποψη και είσοδος κομμωτηρίου">
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                        <h4>Φωτεινός &amp; Σύγχρονος Χώρος</h4>
+                        <p>Ο χώρος εργασίας μας με επαγγελματικές θέσεις περιποίησης, εξοπλισμένος με σύγχρονα εργαλεία styling για κορυφαία αποτελέσματα.</p>
+                    </div>
+                </div>
+
+                <!-- Photo 2 -->
+                <div class="gallery-item col-6" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/photo2.jpg" alt="Χώρος υποδοχής και ράφια προϊόντων">
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                        <h4>Υποδοχή &amp; Προϊόντα</h4>
+                        <p>Η υποδοχή του κομμωτηρίου μας, πλαισιωμένη από επιλεγμένα κορυφαία προϊόντα περιποίησης για κάθε τύπο μαλλιών.</p>
+                    </div>
+                </div>
+
+                <!-- Photo 3 -->
+                <div class="gallery-item col-4" data-aos="fade-up" data-aos-delay="300">
+                    <img src="images/photo3.jpg" alt="Προϊόντα L'Oréal Professionnel">
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                        <h4>Σειρά L'Oréal Professionnel</h4>
+                        <p>Εξειδικευμένα, αυθεντικά προϊόντα L'Oréal Professionnel για μέγιστη θρέψη, επανόρθωση και λάμψη.</p>
+                    </div>
+                </div>
+
+                <!-- Photo 4 -->
+                <div class="gallery-item col-4" data-aos="fade-up" data-aos-delay="400">
+                    <img src="images/photo4.jpg" alt="Θέσεις καθρεπτών και δερμάτινες καρέκλες">
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                        <h4>Θέσεις Περιποίησης &amp; Styling</h4>
+                        <p>Κομψοί ξύλινοι καθρέπτες με ζεστό φωτισμό, σχεδιασμένοι για να προσφέρουν μια χαλαρωτική και πολυτελή εμπειρία.</p>
+                    </div>
+                </div>
+
+                <!-- Photo 5 -->
+                <div class="gallery-item col-4" data-aos="fade-up" data-aos-delay="500">
+                    <img src="images/photo5.jpg" alt="Art Deco τοιχογραφία και δερμάτινα καθίσματα">
+                    <div class="gallery-overlay">
+                        <i class="fa-solid fa-expand"></i>
+                        <h4>Art Deco Αισθητική</h4>
+                        <p>Οι αναπαυτικές δερμάτινες καρέκλες μας με φόντο την εντυπωσιακή τοιχογραφία Art Deco που εμπνέει τη δημιουργικότητά μας.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews and Testimonials Section -->
+    <section class="section-padding reviews-section" id="reviews">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="text-gold" style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 10px;">Η γνώμη σας μετράει</span>
+                <h2>Κριτικές Πελατών</h2>
+                <p>Η ικανοποίησή σας είναι η μεγαλύτερη επιβράβευσή μας. Δείτε τι λένε οι πελάτες μας για εμάς.</p>
+            </div>
+
+            <!-- Google Maps Rating Score Card -->
+            <div class="rating-header-box" data-aos="zoom-in">
+                <div class="rating-score">4.7 / 5</div>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+                <div class="rating-text">Βαθμολογία στο Google Maps</div>
+            </div>
+
+            <!-- Testimonials Grid -->
+            <div class="testimonials-grid">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card" data-aos="fade-right" data-aos-delay="200">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Πολύ καλή δουλειά και πολύ ευγενικό και ευχάριστο προσωπικό... το συστήνω ανεπιφύλακτα!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">Α</div>
+                        <div class="author-info">
+                            <h5>Άννα</h5>
+                            <p>Πελάτισσα Google</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card" data-aos="fade-left" data-aos-delay="300">
+                    <div class="quote-icon"><i class="fa-solid fa-quote-right"></i></div>
+                    <div class="testimonial-stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Χρόνια εμπιστοσύνη στον Κωνσταντίνο, άψογος επαγγελματίας, και πάντα με ευγενικό προσωπικό, το προτείνω ανεπιφύλακτα"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">Γ</div>
+                        <div class="author-info">
+                            <h5>Γιώργος</h5>
+                            <p>Πελάτης Google</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Store Information Section -->
+    <section class="section-padding bg-light" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="text-gold" style="text-transform: uppercase; letter-spacing: 2px; font-size: 0.9rem; font-weight: 600; display: block; margin-bottom: 10px;">Βρείτε μας εύκολα</span>
+                <h2>Επικοινωνία &amp; Ωράριο</h2>
+                <p>Επισκεφθείτε μας στο κομμωτήριό μας στη Νεάπολη ή καλέστε μας για να κλείσετε το δικό σας ραντεβού περιποίησης.</p>
+            </div>
+
+            <div class="contact-grid">
+                <!-- Info Column (Opening Hours & Address & Phone) -->
+                <div class="contact-card" data-aos="fade-right" data-aos-delay="200">
+                    <div>
+                        <h3 class="contact-title">Constantinos Coiffure</h3>
+                        
+                        <div class="contact-info-list">
+                            <!-- Phone -->
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-info-text">
+                                    <h5>Τηλέφωνο Επικοινωνίας</h5>
+                                    <a href="tel:2310628588" style="font-size: 1.15rem; font-weight: 600; color: var(--gold);">2310 628588</a>
+                                </div>
+                            </div>
+                            
+                            <!-- Address -->
+                            <div class="contact-info-item">
+                                <div class="contact-info-icon"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-info-text">
+                                    <h5>Διεύθυνση</h5>
+                                    <p>Leof. Andrea Papandreou 45,<br>Neapoli, Θεσσαλονίκη, 567 28</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Open Business Hours Styled Card -->
+                    <div class="hours-box">
+                        <h4><i class="fa-regular fa-clock"></i> Ωράριο Λειτουργίας</h4>
+                        <div class="hours-list">
+                            <div class="hours-row" id="hours-mon">
+                                <span>Δευτέρα</span>
+                                <span class="text-gold">ΚΛΕΙΣΤΑ</span>
+                            </div>
+                            <div class="hours-row" id="hours-tue">
+                                <span>Τρίτη</span>
+                                <span>09:00 - 13:00 &amp; 15:30 - 20:00</span>
+                            </div>
+                            <div class="hours-row" id="hours-wed">
+                                <span>Τετάρτη</span>
+                                <span>09:00 - 13:00 &amp; 15:30 - 20:00</span>
+                            </div>
+                            <div class="hours-row" id="hours-thu">
+                                <span>Πέμπτη</span>
+                                <span>09:00 - 13:00 &amp; 15:30 - 20:00</span>
+                            </div>
+                            <div class="hours-row" id="hours-fri">
+                                <span>Παρασκευή</span>
+                                <span>09:00 - 13:00 &amp; 15:30 - 20:00</span>
+                            </div>
+                            <div class="hours-row" id="hours-sat">
+                                <span>Σάββατο</span>
+                                <span>09:00 - 13:00 &amp; 15:30 - 20:00</span>
+                            </div>
+                            <div class="hours-row" id="hours-sun">
+                                <span>Κυριακή</span>
+                                <span class="text-gold">ΚΛΕΙΣΤΑ</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Google Maps Embed Card -->
+                <div class="map-container" data-aos="fade-left" data-aos-delay="300">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3025.5901351119793!2d22.939228476839354!3d40.665420540113885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14a8397a6f20bcaf%3A0xe5a363a03ff9655f!2zTGVvZi4gQW5kcmVhIFBhcGFuZHJlb3UgNDUsIE5lYXBvbGkgNTY3IDI4!5e0!3m2!1sel!2sgr!4v1714574921443!5m2!1sel!2sgr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <h3>Constantinos <span>Coiffure</span></h3>
+                    <p>Κομμώσεις υψηλής αισθητικής και περιποίηση μαλλιών στη Νεάπολη Θεσσαλονίκης από το 2003. Αναδείξτε τη δική σας ομορφιά.</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="tel:2310628588" class="social-btn" aria-label="Τηλέφωνο"><i class="fa-solid fa-phone"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Γρήγοροι Σύνδεσμοι</h4>
+                    <ul>
+                        <li><a href="#">Αρχική</a></li>
+                        <li><a href="#about">Σχετικά με Εμάς</a></li>
+                        <li><a href="#services">Υπηρεσίες &amp; Τιμοκατάλογος</a></li>
+                        <li><a href="#gallery">Ο Χώρος Μας (Φωτογραφίες)</a></li>
+                        <li><a href="#reviews">Κριτικές Πελατών</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4>Επικοινωνήστε Μαζί Μας</h4>
+                    <ul style="color: var(--text-light-muted); font-size: 0.9rem;">
+                        <li><i class="fa-solid fa-phone text-gold" style="margin-right: 10px;"></i> 2310 628588</li>
+                        <li><i class="fa-solid fa-location-dot text-gold" style="margin-right: 10px;"></i> Λεωφ. Ανδρέα Πανανδρέου 45, Νεάπολη, 567 28</li>
+                        <li><i class="fa-solid fa-clock text-gold" style="margin-right: 10px;"></i> Τρίτη - Σάββατο: 09:00 - 13:00 &amp; 15:30 - 20:00</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2024 Constantinos Coiffure. Όλα τα δικαιώματα διατηρούνται. Σχεδιασμένο με πάθος.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Πολιτική Απορρήτου</a>
+                    <a href="#">Όροι Χρήσης</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Back to Top Button -->
+    <button id="scroll-top-btn" class="scroll-top-btn" aria-label="Επιστροφή στην κορυφή">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Custom Lightbox Modal -->
+    <div id="lightbox-modal" class="lightbox-modal" role="dialog" aria-modal="true">
+        <button class="lightbox-close" aria-label="Κλείσιμο"><i class="fa-solid fa-xmark"></i></button>
+        <button class="lightbox-nav lightbox-prev" aria-label="Προηγούμενη"><i class="fa-solid fa-chevron-left"></i></button>
+        <button class="lightbox-nav lightbox-next" aria-label="Επόμενη"><i class="fa-solid fa-chevron-right"></i></button>
+        
+        <div class="lightbox-content-wrapper">
+            <img class="lightbox-img" src="" alt="">
+            <div class="lightbox-caption">
+                <h4>Τίτλος</h4>
+                <p>Περιγραφή</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Booking / Consultation Appointment Modal -->
+    <div id="booking-modal" class="modal-overlay" role="dialog" aria-modal="true">
+        <div class="modal-box">
+            <button id="modal-close-btn" class="modal-close" aria-label="Κλείσιμο"><i class="fa-solid fa-xmark"></i></button>
+            <h3>Κλείστε Ραντεβού</h3>
+            <p>Συμπληρώστε τα στοιχεία σας και θα επικοινωνήσουμε μαζί σας τηλεφωνικά για να επιβεβαιώσουμε την ακριβή ώρα του ραντεβού σας.</p>
+            
+            <form id="appointment-form">
+                <div class="form-group">
+                    <label for="form-name">Όνοματεπώνυμο *</label>
+                    <input type="text" id="form-name" class="form-control" placeholder="π.χ. Άννα Παπαδοπούλου" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="form-phone">Τηλέφωνο Επικοινωνίας *</label>
+                    <input type="tel" id="form-phone" class="form-control" placeholder="π.χ. 69XXXXXXXX ή 2310XXXXXX" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="form-service">Υπηρεσία *</label>
+                        <select id="form-service" class="form-control" required>
+                            <option value="" disabled selected>Επιλέξτε Υπηρεσία</option>
+                            <option value="κούρεμα-χτένισμα">Λούσιμο - Κούρεμα - Χτένισμα</option>
+                            <option value="χτένισμα">Λούσιμο - Χτένισμα</option>
+                            <option value="κούρεμα-ανδρικό">Κούρεμα Ανδρικό</option>
+                            <option value="βαφή-ρίζα">Βαφή Ρίζα</option>
+                            <option value="βαφή-όλα">Βαφή Όλα</option>
+                            <option value="ανταύγειες">Ανταύγειες / Mes</option>
+                            <option value="άλλο">Άλλη Υπηρεσία</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="form-date">Προτιμώμενη Ημερομηνία *</label>
+                        <input type="date" id="form-date" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="form-notes">Σχόλια / Ιδιαίτερες Επιθυμίες</label>
+                    <textarea id="form-notes" class="form-control" placeholder="Γράψτε μας αν έχετε κάποια συγκεκριμένη προτίμηση..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: 10px;">
+                    <i class="fa-solid fa-paper-plane"></i> Υποβολή Αιτήματος
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Toast Success Notification -->
+    <div id="success-toast" class="toast">
+        <i class="fa-solid fa-circle-check" style="font-size: 1.5rem;"></i>
+        <div>
+            <strong style="display: block;">Επιτυχία!</strong>
+            Το αίτημά σας στάλθηκε. Θα σας καλέσουμε σύντομα!
+        </div>
+    </div>
+
+    <!-- JS Dependencies -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
